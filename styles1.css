@@ -28,6 +28,16 @@ main {
     height: 45%;
 }
 
+/* .dog-info-section {
+    margin: auto;
+} */
+
+article {
+    display: inline-block;
+    width: 33%;
+    height: 100%;
+}
+
 footer {
     background-color: #048eaa;
     height: 10%;
