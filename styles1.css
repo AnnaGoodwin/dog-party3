@@ -10,11 +10,18 @@ body {
 }
 
 nav {
+    background-color: #75e2e6;
     height: 15%;
 }
 
+.nav-dog {
+    height: 50px;
+}
+
 header {
+    text-align: center;
     height: 30%;
+    background-image: url(images/park.jpg)
 }
 
 main {
@@ -22,13 +29,16 @@ main {
 }
 
 footer {
+    background-color: #048eaa;
     height: 10%;
 }
 
 .dog-links {
-    
+    display: inline-block;
+    margin: auto;
+    text-align: right;
 }
 
 li {
-    text-align: right;
+    /* text-align: right; */
 }
