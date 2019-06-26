@@ -1,6 +1,11 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
 * {
     margin: auto 0;
-    box-sizing: border-box;
     border: 1px solid red;
 }
 
@@ -29,19 +34,9 @@ header {
     margin: auto;
 }
 
-/* form {
-    display: inline-block;
-    width: 50px;
-} */
-
-
 main {
     height: 100vh;
 }
-
-/* .dog-info-section {
-    margin: auto;
-} */
 
 article {
     text-align: center;
@@ -61,6 +56,8 @@ footer {
     text-align: right;
 }
 
-li {
-    /* text-align: right; */
+@media only screen and (max-width: 850px) {
+    body {
+        background-color: green;
+    }
 }
