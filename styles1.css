@@ -56,10 +56,11 @@ footer {
     text-align: right;
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 875px) {
     article {
         display: block;
         margin: auto;
+        width: 300px;
     }
     main {
         height: 100%;
