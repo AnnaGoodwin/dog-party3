@@ -9,6 +9,12 @@
     border: 1px solid red;
 }
 
+.clearfix: after {
+    content: ' ';
+    display: table;
+    clear: both;
+}
+
 body {
     height: 100%;
     width: 100%;
