@@ -32,7 +32,8 @@ nav {
 header {
     text-align: center;
     height: 30%;
-    background-image: url(images/park.jpg)
+    background-image: url(images/park.jpg);
+    background-size: cover;
 }
 
 .header-content {
