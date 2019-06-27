@@ -29,6 +29,21 @@ nav {
     height: 50px;
 }
 
+.dog-links {
+    margin-left: auto;
+    width: 40%;
+    display: inline;
+    float: right;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline;
+}
+
 header {
     text-align: center;
     height: 30%;
@@ -57,17 +72,11 @@ footer {
     height: 10%;
 }
 
-.dog-links {
-    display: inline-block;
-    margin: auto;
-    text-align: right;
-}
-
 @media only screen and (max-width: 875px) {
     article {
         display: block;
         margin: auto;
-        width: 300px;
+        width: 100%;
     }
     main {
         height: 100%;
