@@ -6,7 +6,7 @@
 
 * {
     margin: auto 0;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }
 
 .clearfix: after {
@@ -121,7 +121,8 @@ input {
 }
 
 p {
-    float: center;
+    text-align: center;
+    margin: 20px;
 }
 
 main {
@@ -171,7 +172,8 @@ footer {
         height: 100vh;
     }
 
-    footer {
-        display: block;
+    p {
+        width: 33%;
+        margin: auto;
     }
 }
