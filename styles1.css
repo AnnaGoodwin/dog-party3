@@ -94,7 +94,7 @@ form {
 
 .dog-name-input,
 .dog-name-button {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     display: block;
     text-align: left;
 }
@@ -120,9 +120,16 @@ input {
     background-color: #75e2e6;
 }
 
+.how-button,
+.what-button,
+.facts-button {
+    width: 
+}
+
 p {
-    text-align: center;
-    margin: 20px;
+    text-align: left;
+    margin: auto;
+    width: 250px;
 }
 
 main {
@@ -133,6 +140,11 @@ article {
     text-align: center;
     display: inline-block;
     width: 33%;
+    vertical-align: text-top;
+}
+
+h3 {
+    font-weight: 800;
 }
 
 footer {
