@@ -104,16 +104,17 @@ label {
     font-size: 13px;
     color: white;
     text-align: left;
+    margin-bottom: 5px;
 }
 
 input {
     width: 100%;
-    height: 5vh;
+    height:6vh;
 }
 
 .dog-name-button {
     width: 100%;
-    height: 5vh;
+    height: 6vh;
     text-align: center;
     font-weight: 700;
     font-size: 13px;
@@ -123,9 +124,12 @@ input {
 .how-button,
 .what-button,
 .facts-button {
+    font-size: 16px;
     background-color: #048eaa;
     color: white;
-    /*width: 50px;*/
+    width: 250px;
+    height: 6vh;
+    margin: 45px;
 }
 
 p {
@@ -143,7 +147,7 @@ article {
     display: inline-block;
     width: 33%;
     vertical-align: text-top;
-    margin-top: 20px;
+    margin-top: 45px; 
 }
 
 h3 {
@@ -168,7 +172,7 @@ footer {
 .facebook-svg,
 .linkedin-svg {
     width: 35px;
-    margin: 10px;
+    margin: 7px;
 }
 
 #twitter-svg {
@@ -184,11 +188,14 @@ footer {
         display: block;
         margin: auto;
         width: 100%;
-        height: 100vh;
     }
 
     p {
         width: 33%;
         margin: auto;
+    }
+
+    li {
+        width: 20%;
     }
 }
