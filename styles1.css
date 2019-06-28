@@ -35,7 +35,7 @@ nav {
 }
 
 .dog-links {
-    margin-top: 25px;
+    margin-top: 23px;
     margin-left: auto;
     width: 450px;
     display: inline;
@@ -52,6 +52,7 @@ li {
 }
 
 header {
+    padding-top: 20px;
     text-align: center;
     height: 30%;
     background-image: url(images/park.jpg);
@@ -63,6 +64,7 @@ header {
 }
 
 h2 {
+    padding: 5px;
     color: white;
 }
 
@@ -92,7 +94,7 @@ form {
 
 .dog-name-input,
 .dog-name-button {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     display: block;
     text-align: left;
 }
@@ -114,6 +116,7 @@ input {
     height: 5vh;
     text-align: center;
     font-weight: 700;
+    font-size: 13px;
     background-color: #75e2e6;
 }
 
@@ -135,6 +138,26 @@ article {
 footer {
     background-color: #048eaa;
     height: 10%;
+    text-align: center;
+}
+
+.learn-about-dogs {
+    padding-top: 30px;
+    font-size: 17px;
+    color: white;
+    font-weight: 400;
+}
+
+.twitter-svg,
+.instagram-svg,
+.facebook-svg,
+.linkedin-svg {
+    width: 35px;
+    margin: 10px;
+}
+
+.social-media-imgs {
+    margin: 20px 0;
 }
 
 @media only screen and (max-width: 875px) {
