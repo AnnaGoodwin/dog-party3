@@ -51,6 +51,11 @@ li {
     display: inline;
 }
 
+li:hover {
+    color: white;
+    cursor: pointer;
+}
+
 header {
     padding-top: 20px;
     text-align: center;
@@ -97,6 +102,7 @@ form {
     margin-bottom: 20px;
     display: block;
     text-align: left;
+    border-style: none;
 }
 
 label {
@@ -119,6 +125,7 @@ input {
     font-weight: 700;
     font-size: 13px;
     background-color: #75e2e6;
+    vertical-align: text-bottom;
 }
 
 .how-button,
@@ -130,6 +137,7 @@ input {
     width: 250px;
     height: 6vh;
     margin: 45px;
+    border-style: none;
 }
 
 p {
@@ -193,9 +201,5 @@ footer {
     p {
         width: 33%;
         margin: auto;
-    }
-
-    li {
-        width: 20%;
     }
 }
