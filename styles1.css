@@ -30,10 +30,12 @@ nav {
 
 .nav-dog {
     height: 45px;
+    margin: 10px 15px 10px 20px;
+    margin-left: 20px;
 }
 
 .dog-links {
-    margin-top: 15px;
+    margin-top: 25px;
     margin-left: auto;
     width: 450px;
     display: inline;
