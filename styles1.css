@@ -16,10 +16,11 @@
 }
 
 body {
+    background-color: #ffffff;
     font-family: 'Open Sans', sans-serif;
     height: 100%;
     width: 100%;
-    border: 2px solid black;
+    border: 2px solid #000000;
 }
 
 nav {
@@ -52,7 +53,7 @@ li {
 }
 
 li:hover {
-    color: white;
+    color: #ffffff;
     cursor: pointer;
 }
 
@@ -70,7 +71,7 @@ header {
 
 h2 {
     padding: 5px;
-    color: white;
+    color: #ffffff;
 }
 
 .changeable-title {
@@ -108,7 +109,7 @@ form {
 label {
     display: block;
     font-size: 13px;
-    color: white;
+    color: #ffffff;
     text-align: left;
     margin-bottom: 5px;
 }
@@ -133,7 +134,7 @@ input {
 .facts-button {
     font-size: 16px;
     background-color: #048eaa;
-    color: white;
+    color: #ffffff;
     width: 250px;
     height: 6vh;
     border-style: none;
@@ -154,9 +155,9 @@ main {
 article {
     text-align: center;
     display: inline-block;
-    width: 33%;
     vertical-align: text-top;
-    margin-top: 45px; 
+    margin-top: 35px; 
+    width: 33%;
 }
 
 h3 {
@@ -180,7 +181,7 @@ footer {
 .instagram-svg,
 .facebook-svg,
 .linkedin-svg {
-    width: 35px;
+    width: 39px;
     margin: 7px;
 }
 
@@ -195,7 +196,26 @@ footer {
 @media only screen and (max-width: 875px) {
     article {
         display: block;
-        margin: 45px auto;
+        margin: 25px auto;
         width: 100%;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+
+    li {
+        display: block;
+        font-size: 10px;
+        padding: 0;
+        text-align: right;
+        margin: 0 10px;
+    }
+
+    .dog-links {
+        width: 200px;
+    }
+
+    header {
+        padding: 0;
     }
 }
