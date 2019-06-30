@@ -26,7 +26,6 @@ body {
 nav {
     background-color: #75e2e6;
     border-bottom: 3px solid #048eaa;
-    height: 15%;
 }
 
 .nav-dog {
@@ -202,17 +201,22 @@ footer {
 }
 
 @media only screen and (max-width: 540px) {
+    ul {
+        display: inline-block;
+    }
 
     li {
         display: block;
-        font-size: 10px;
+        font-size: 14px;
         padding: 0;
         text-align: right;
-        margin: 0 10px;
     }
 
     .dog-links {
-        width: 200px;
+        margin-top: 9px;
+        margin-left: auto;
+        margin-right: 20px;
+        width: 150px;
     }
 
     header {
