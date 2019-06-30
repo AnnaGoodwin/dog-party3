@@ -78,7 +78,7 @@ h2 {
 }
 
 .header-content {
-    width: 300px;
+    width: 285px;
     margin: auto;
 }
 
@@ -156,7 +156,7 @@ article {
     display: inline-block;
     vertical-align: text-top;
     margin-top: 35px; 
-    width: 33%;
+    /*width: 33%;*/
 }
 
 h3 {
