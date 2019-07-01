@@ -21,7 +21,6 @@ nav {
   width: 180px;
   height: 100vh;
   position: fixed;
-  /*height: 100vh;*/
 }
 
 header,
@@ -30,8 +29,40 @@ footer {
   margin-left: 180px;
 }
 
+/*header {
+  display: inline-block;
+}*/
+
+
+
+h2,
+form {
+  /*margin: auto;*/
+  /*float: right;*/
+  display: inline-block;
+  margin-left: auto;
+  position: relative;
+}
+
 /* Class Targets */
 
 .nav-dog {
   width: 150px;
+}
+
+.header-dog {
+  align-content: top;
+  display: inline;
+  margin-right: 0;
+  width: 40%;
+  z-index: 1;
+  border: 10px solid #9A969C;
+  border-color: #9A969C;
+  border-radius: 50%;
+  height: 80%;
+  margin-left: 4%;
+  margin-top: 3%;
+  
+  /*text-align: left;*/
+  /*float: left;*/
 }
