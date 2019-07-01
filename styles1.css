@@ -200,6 +200,7 @@ footer {
 @media only screen and (max-width: 540px) {
     ul {
         display: inline-block;
+        margin-top: 2px;
     }
 
     li {
