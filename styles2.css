@@ -23,6 +23,10 @@ nav {
   position: fixed;
 }
 
+ul {
+  list-style: none;
+}
+
 header,
 article,
 footer {
@@ -30,19 +34,36 @@ footer {
   margin-right: 5%;
 }
 
-/*header {
-  display: inline-block;
-}*/
+header {
+  background: #3E3544;
+  height: 400px;
+}
+
+h2 {
+  width: 37%;
+  position: absolute;
+  color: white;
+  margin-right: 13%;
+  padding: 60px;
+  font-weight: 200;
+  top: 10%;
+  left: 57%;
+}
 
 
-
-h2,
 form {
-  margin: auto;
-  /*float: right;*/
-  display: inline-block;
-  margin-left: auto;
-  position: relative;
+  position: absolute;
+  float: right;
+  top: 30%;
+  left: 57%;
+}
+
+label {
+  display: block;
+}
+
+input {
+  display: block;
 }
 
 article {
@@ -52,6 +73,21 @@ article {
   height: 350px;
   margin-left: 180px;
 }
+input{
+  position: relative;
+}
+footer {
+    background-color: #3E3544;
+    bottom: 0px;
+    height: 150px;
+    padding-top: 50px;
+    position: fixed;
+    width: 85%;
+}
+
+footer img {
+  height: 40px;
+}
 
 /* Class Targets */
 
@@ -60,20 +96,12 @@ article {
 }
 
 .header-dog {
-  align-content: top;
-  display: inline;
-  margin-right: 0;
-  width: 40%;
-  z-index: 1;
-  border: 5px solid #9A969C;
-  border-color: #9A969C;
+  border: 10px solid #9A969C;
   border-radius: 50%;
-  height: 80%;
-  margin-left: 4%;
-  margin-top: 3%;
-  
-  /*text-align: left;*/
-  /*float: left;*/
+  display: inline-block;
+  height: 375px;
+  margin-left: 7%;
+  position: absolute;
 }
 
 .how-to-dog-img,
@@ -109,5 +137,16 @@ article {
     margin-right: 10%;
     padding-top: 100px;
     text-align: left;
+}
+
+.social-media-imgs {
+  float: right;
+  width: 20%;
+}
+
+.top-icons,
+.bottom-icons {
+  display:inline-block;
+  padding: 20px;
 }
 
