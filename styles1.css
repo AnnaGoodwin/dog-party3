@@ -77,10 +77,15 @@ h2 {
     font-weight: 400;
 }
 
-.header-content {
+form {
     width: 285px;
     margin: auto;
 }
+
+/*.header-content {
+    width: 285px;
+    margin: auto;
+}*/
 
 .header-dog,
 .how-to-dog-img,
