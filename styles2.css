@@ -6,7 +6,7 @@
 
 * {
     margin: auto 0;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }
 
 .clearfix: after {
@@ -27,6 +27,7 @@ header,
 article,
 footer {
   margin-left: 180px;
+  margin-right: 5%;
 }
 
 /*header {
@@ -37,11 +38,19 @@ footer {
 
 h2,
 form {
-  /*margin: auto;*/
+  margin: auto;
   /*float: right;*/
   display: inline-block;
   margin-left: auto;
   position: relative;
+}
+
+article {
+  border-bottom: 1px solid black;
+  border-width: 50%;
+  column-count: 2;
+  height: 350px;
+  margin-left: 180px;
 }
 
 /* Class Targets */
@@ -56,7 +65,7 @@ form {
   margin-right: 0;
   width: 40%;
   z-index: 1;
-  border: 10px solid #9A969C;
+  border: 5px solid #9A969C;
   border-color: #9A969C;
   border-radius: 50%;
   height: 80%;
@@ -66,3 +75,39 @@ form {
   /*text-align: left;*/
   /*float: left;*/
 }
+
+.how-to-dog-img,
+.what-is-dogs-img,
+.facts-from-dog-img {
+  border: 5px solid #9A969C;
+  border-radius: 50%;
+  margin-left: 4%;
+  margin-top: 3%;
+  width: 30%;
+}
+
+.how-button,
+.what-button,
+.facts-button {
+    background-color: #3E3544;
+    border-radius:5px;
+    color:white;
+    font-family: Roboto Slab;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-left: 70%;
+    margin-top: 20px;
+    padding: 20px;
+    width: 30%;
+}
+
+.how-to-dog-ipsum {
+    font-size: 16px;
+    font-weight: 300;
+    height: 200px;
+    margin-right: 10%;
+    padding-top: 100px;
+    text-align: left;
+}
+
